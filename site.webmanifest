@@ -1,0 +1,15 @@
+{
+  "name": "Mustaff 24H",
+  "short_name": "Mustaff24H",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F8F9FA",
+  "theme_color": "#003366",
+  "icons": [
+    {
+      "src": "assets/img/brand/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
