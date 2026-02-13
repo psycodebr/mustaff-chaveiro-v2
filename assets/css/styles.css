@@ -405,3 +405,93 @@
         right: 20px;
       }
     }
+
+    /* ==============================
+   PÁGINA POLÍTICA DE PRIVACIDADE
+============================== */
+
+.policy {
+  padding: 80px 0;
+  background-color: var(--light);
+}
+
+.policy-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  padding: 40px;
+}
+
+.policy-header {
+  margin-bottom: 25px;
+}
+
+.policy-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.policy-meta {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(255, 215, 0, 0.20);
+  color: var(--primary);
+  border: 1px solid rgba(255, 215, 0, 0.35);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.policy h2 {
+  margin-top: 30px;
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.policy p {
+  margin: 10px 0;
+}
+
+.policy ul {
+  margin: 10px 0 10px 22px;
+}
+
+.policy li {
+  margin-bottom: 6px;
+}
+
+.notice {
+  margin-top: 15px;
+  padding: 16px;
+  border-left: 5px solid var(--accent);
+  background: rgba(255, 107, 0, 0.08);
+  border-radius: 10px;
+}
+
+.contact-box {
+  margin-top: 20px;
+  padding: 18px;
+  background: rgba(0, 51, 102, 0.05);
+  border: 1px solid rgba(0, 51, 102, 0.12);
+  border-radius: 12px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .policy {
+    padding: 50px 0;
+  }
+
+  .policy-card {
+    padding: 25px;
+  }
+
+  .policy-header h1 {
+    font-size: 28px;
+  }
+}
